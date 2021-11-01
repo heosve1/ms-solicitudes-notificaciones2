@@ -52,3 +52,5 @@ def enviarSms():
 
 if __name__ == '__main__':
     app.run()
+
+#version con notificaciones por SMS
