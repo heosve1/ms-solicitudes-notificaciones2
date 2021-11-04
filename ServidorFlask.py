@@ -21,7 +21,7 @@ def enviarCorreo():
     subject=asunto,
     html_content=mensaje)
     try:
-        sg = SendGridAPIClient('')
+        sg = SendGridAPIClient('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')
         response = sg.send(message)
         return "OK"
     except Exception as e:
